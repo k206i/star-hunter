@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script defer src="phaser-2a05d9b4d900255399b5.bundle.js"></script><script defer src="main-5fb87af08d94ab1c5f06.bundle.js"></script><link href="index.css" rel="stylesheet"></head>
+
+<body id="bodyRoot">
+
+<div class="content">
+    <div class="game-intro"></div>
+
+    <div class="high-scores">
+        <div class="high-scores__title">
+            Highscores
+        </div>
+
+        <div class="high-scores__table is-loading js-high-scores"></div>
+
+        <button class="input-button" id="startButton">
+            Start
+        </button>
+    </div>
+
+    <div class="content__game-overlay">
+        <div class="header-game">
+            <div class="header-game__item">
+                <div class="header-game__label">
+                    Score
+                </div>
+
+                <div class="js-score-node">0</div>
+            </div>
+
+            <div class="header-game__item">
+                <div class="header-game__label">
+                    Dash
+                </div>
+
+                <div class="flash-velocity" id="fillBarNode"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gameContent">
+    </div>
+
+    <div class="high-scores-popup js-save-score">
+        <div class="high-scores-popup__content">
+            <div class="high-scores-popup__close js-save-score__close">X</div>
+
+            <div class="high-scores-popup__title">
+                Score
+            </div>
+
+            <div class="high-scores-popup__score js-score-node">0</div>
+
+            <label class="high-scores-popup__label" for="userName">
+                Enter your name
+            </label>
+
+            <input class="high-scores-popup__input input" id="userName">
+
+            <div class="high-scores-popup__button input-button js-save-score__button">
+                Save
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

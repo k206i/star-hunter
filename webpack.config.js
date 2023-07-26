@@ -21,7 +21,7 @@ module.exports = {
         }
     },
     output: {
-        path: path.resolve(__dirname, "doc"),
+        path: path.resolve(__dirname, "dist"),
         filename: "[name]-[contenthash].bundle.js",
         assetModuleFilename: "asset-packs/[name]-[hash][ext][query]",
     },
@@ -66,7 +66,7 @@ module.exports = {
         historyApiFallback: true,
         allowedHosts: 'all',
         static: {
-            directory: path.resolve(__dirname, "./doc"),
+            directory: path.resolve(__dirname, "./dist"),
         },
         open: true,
         hot: true,
