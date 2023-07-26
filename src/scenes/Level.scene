@@ -1,0 +1,381 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 1,
+        "snapHeight": 1,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "eac1c93c-b0c9-4037-8b2a-f39a09e4bbec",
+            "label": "sky",
+            "components": [],
+            "texture": {
+                "key": "sky"
+            },
+            "x": 640,
+            "y": 360,
+            "scaleX": 1.6162429819166788,
+            "scaleY": 1.2070412376520576,
+            "list": []
+        },
+        {
+            "prefabId": "1d140c7b-0667-480e-93cf-541d1ca202ec",
+            "id": "9ec85050-1261-4da4-b8ad-5842490caf6d",
+            "unlock": [
+                "x",
+                "y",
+                "autoPlayAnimation"
+            ],
+            "label": "player",
+            "scope": "CLASS",
+            "components": [],
+            "x": 465,
+            "y": 233,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "type": "Layer",
+            "id": "7b055fc6-b1a6-47e2-ab4e-e7412efacd69",
+            "label": "starsLayer",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "d696f713-4c55-4d65-9b3d-c8badf372254",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star",
+                    "components": [],
+                    "x": 38,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "84d26fdb-6d0a-4d97-a422-a3ab469c97c6",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_1",
+                    "components": [],
+                    "x": 157.5424000886119,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "9d3bfca4-307c-490f-93fb-907f5d744e96",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_2",
+                    "components": [],
+                    "x": 277.0848001772238,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "0c24ca65-82b9-4549-afe5-5c5cce2f73a8",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_3",
+                    "components": [],
+                    "x": 396.62720026583577,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "da790921-81a1-4273-bf25-01a9865bad27",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_4",
+                    "components": [],
+                    "x": 516.1696003544477,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "3c91a491-d501-4afe-8c7a-535e1fa4d15a",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_5",
+                    "components": [],
+                    "x": 635.7120004430595,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "1649f278-c1d0-4f81-a219-7d554c45938a",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_6",
+                    "components": [],
+                    "x": 755.2544005316714,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "47e8cb94-83a6-4225-b8dc-c5c95f917193",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_7",
+                    "components": [],
+                    "x": 874.7968006202833,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "2476b8fd-3cde-44c5-b0b5-8b875e8d1770",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_8",
+                    "components": [],
+                    "x": 994.3392007088952,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "dd46d991-3be3-4306-a1cf-8e94836b62c2",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_9",
+                    "components": [],
+                    "x": 1113.8816007975072,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "8826cad1-d137-4c66-84d7-e77634412d92",
+                    "id": "1063520c-adc6-462d-9718-ca46f73322f0",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "star_10",
+                    "components": [],
+                    "x": 1233.424000886119,
+                    "y": -38.27272727272724,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "425e1257-e65e-4ff7-a5ea-1e71298337ad",
+            "label": "platformsLayer",
+            "components": [],
+            "list": [
+                {
+                    "prefabId": "f114d7f3-b482-4d28-a27b-6b141ddff59c",
+                    "id": "5c35a50a-f77e-4086-851b-cf5f643fb864",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform",
+                    "components": [],
+                    "x": -6,
+                    "y": 336,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "f114d7f3-b482-4d28-a27b-6b141ddff59c",
+                    "id": "d6e9aff8-571a-401c-a113-d162624295cf",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_1",
+                    "components": [],
+                    "x": 690,
+                    "y": 478,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "f114d7f3-b482-4d28-a27b-6b141ddff59c",
+                    "id": "47547829-31c0-469b-bfd7-acc130dbcd40",
+                    "unlock": [
+                        "x",
+                        "y"
+                    ],
+                    "label": "platform_2",
+                    "components": [],
+                    "x": 904,
+                    "y": 300,
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "f114d7f3-b482-4d28-a27b-6b141ddff59c",
+                    "id": "1c4ede48-4e5a-4bae-ba41-ca590d54fe77",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "scaleX",
+                        "scaleY",
+                        "body.offset.x",
+                        "body.offset.y",
+                        "body.width",
+                        "body.height"
+                    ],
+                    "label": "platformGround",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -8,
+                    "y": 639,
+                    "scaleX": 1.2408567062942588,
+                    "scaleY": 0.134667199855117,
+                    "body.width": 1274,
+                    "body.height": 187,
+                    "body.offset.x": 4,
+                    "body.offset.y": 28,
+                    "nestedPrefabs": [],
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Layer",
+            "id": "c76a6f6c-06fe-48f1-b3ec-adf71799c324",
+            "label": "bombsLayer",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "a162f63a-7df7-40c5-b5ec-634db973d975",
+            "type": "Collider",
+            "label": "player_platforms_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "platformsLayer.list"
+        },
+        {
+            "id": "56ccc367-08a3-498b-a2d9-85ab78070d40",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "7182c538-0915-471f-8f03-701b22bafc8c",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "051ed2b5-0db9-4dbb-9153-4123fd0e02fc",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "d888aaed-d94d-461d-9a95-f52857e5de2e",
+            "type": "Collider",
+            "label": "stars_platforms_collider",
+            "scope": "METHOD",
+            "object1": "starsLayer.list",
+            "object2": "platformsLayer.list"
+        },
+        {
+            "id": "102e0165-2b75-4b53-8660-33b3300b5dce",
+            "type": "Collider",
+            "label": "player_stars_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "starsLayer.list",
+            "overlapOnly": true,
+            "collideCallback": "this.collectStar as any",
+            "callbackContext": "this"
+        },
+        {
+            "id": "6eab4a7f-1c56-4151-9d80-3080208ad52c",
+            "type": "Keyboard.Key",
+            "label": "spaceBar"
+        },
+        {
+            "id": "f13b4533-8c3f-41f9-a466-85e0fc20c805",
+            "type": "Collider",
+            "label": "bombs_platforms_collider",
+            "scope": "METHOD",
+            "object1": "bombsLayer.list",
+            "object2": "platformsLayer.list"
+        },
+        {
+            "id": "a59f2d69-2f94-442d-b877-c6ca279093ce",
+            "type": "Collider",
+            "label": "player_bombs_collider",
+            "scope": "METHOD",
+            "object1": "player",
+            "object2": "bombsLayer.list",
+            "collideCallback": "this.hitBomb as any",
+            "callbackContext": "this"
+        },
+        {
+            "id": "209f1daf-5568-4d63-8fa8-834840cbab03",
+            "type": "Collider",
+            "label": "bomb_bomb_collider",
+            "scope": "METHOD",
+            "object1": "bombsLayer.list",
+            "object2": "bombsLayer.list"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

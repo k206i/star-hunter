@@ -1,0 +1,44 @@
+.high-scores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-Pixel;
+
+    .is-game-started & {
+        display: none;
+    }
+
+    &__title {
+        margin-bottom: $size-step-l;
+        font-size: 34px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__value,
+    &__name {
+        min-width: 250px;
+    }
+
+    &__name {
+        text-align: right;
+    }
+
+    &__value {
+        text-align: left;
+    }
+
+    &__table {
+        min-width: 100px;
+        min-height: 100px;
+        margin-bottom: $size-step-l;
+
+        &.is-loading {
+            background: url( '../assets/img/gif/loading.gif' ) no-repeat 50% 50%;
+            background-size: 50px auto;
+        }
+    }
+}

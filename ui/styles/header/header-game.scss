@@ -1,0 +1,40 @@
+.header-game {
+    pointer-events: none;
+    opacity: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    z-index: $z-index-header;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 4px 20px;
+    font-family: $default-font-family-alt;
+    transition: $transition-opacity;
+    background: $color-navy-30;
+
+    .is-game-started & {
+        pointer-events: auto;
+        opacity: 1;
+    }
+
+    &__buttons {
+        margin-left: auto;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    &__label {
+        margin-bottom: 2px;
+        font-size: 12px;
+    }
+
+    &__item-value {
+
+    }
+}

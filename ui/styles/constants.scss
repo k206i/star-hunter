@@ -1,0 +1,78 @@
+@use "sass:math";
+// Desktop first layout
+
+// Colors sets
+// lighter with highest index
+// white
+$color-white-10: rgba( white, .1 );
+$color-white-30: rgba( white, .3 );
+$color-white-50: rgba( white, .5 );
+$color-white-70: rgba( white, .7 );
+
+//gray
+$color-gray-50: #bdc0c4;
+$color-gray-80: #555;
+$color-gray-90: #333;
+
+// navy
+$color-navy: rgb(3, 12, 21);
+$color-navy-30: rgb(3, 12, 21, .3);
+
+// Colors
+$color-background: #212c38;
+$color-hover-shadow: black;
+
+// Z-indexes
+$z-index-layout: 100;
+$z-index-tooltip: 200;
+$z-index-dropdown: 300;
+$z-index-header: 350;
+$z-index-overlay: 400;
+$z-index-popup: 500;
+$z-index-modal: 1000;
+
+
+// Sizes
+$design-step: 8px;
+$size-step-s: $design-step;
+$size-step: $design-step * 2; // 16px
+$size-step-l: $design-step * 3; // 24px
+
+$design-gap: 8px;
+$size-gap: $design-gap * 2; // 16px
+$size-gap-l: $design-gap * 3; // 24px
+
+$size-game-canvas-width: 1280px;  // Совпадает со значением
+$size-game-canvas-aspect: 1.78; // canvasBaseWidth в ui/config.ts
+
+// Fonts
+$font-Fira: 'Fira Sans', sans-serif;
+$font-PTRootUI: 'PTRootUI', sans-serif;
+$font-Pixel: 'Joystix', sans-serif;
+
+// Defaults
+$default-font-family: $font-Pixel;
+$default-font-family-alt: $font-Pixel;
+
+$default-font-size: 18px;
+$default-font-weight: 400;
+$default-line-height: 1.2;
+$default-font-color: $color-white-70;
+
+$default-background-color: $color-background;
+$default-transition-duration: .3s;
+$default-video-aspect: 1.7777778; // 16:9
+
+$default-input-height: 46px;
+
+$default-hover-transform: translate( 2px, -2px );
+
+// Transitions
+$transition-all: all $default-transition-duration ease;
+$transition-opacity: opacity $default-transition-duration ease;
+$transition-color: color $default-transition-duration ease;
+$transition-fill: fill $default-transition-duration ease;
+$transition-bg: background $default-transition-duration ease;
+$transition-border: border $default-transition-duration ease;
+
+

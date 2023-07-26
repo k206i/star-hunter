@@ -1,0 +1,23 @@
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.body,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+  color: $default-font-color;
+  background: $default-background-color;
+  background-size: 100% auto;
+}

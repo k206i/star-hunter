@@ -1,0 +1,25 @@
+.content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    canvas {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain;
+        margin: 0 !important;
+    }
+
+    &__game-overlay {
+        pointer-events: none;
+        position: absolute;
+        z-index: $z-index-overlay;
+        left: 50%;
+        top: 50%;
+        transform: translate( -50%, -50% );
+        width: 100%;
+        aspect-ratio: $size-game-canvas-aspect;
+    }
+}

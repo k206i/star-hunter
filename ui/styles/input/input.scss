@@ -1,0 +1,9 @@
+.input {
+    display: flex;
+    width: 100%;
+    height: $default-input-height;
+    padding: 0 20px;
+    font-family: $default-font-family;
+    font-size: 32px;
+    color: $color-gray-80;
+}

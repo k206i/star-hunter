@@ -1,0 +1,23 @@
+.input-button {
+    display: inline-flex;
+    align-items: center;
+    height: $default-input-height;
+    padding: 0 20px;
+    background: $color-white-50;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-family: $default-font-family;
+    color: $color-gray-90;
+    cursor: pointer;
+
+    &:hover {
+        transform: translate( 2px, -2px );
+        box-shadow: -4px 4px 0 $color-hover-shadow;
+    }
+
+    &.is-disabled {
+        pointer-events: none;
+        opacity: .6;
+    }
+}
