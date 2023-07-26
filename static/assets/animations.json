@@ -214,6 +214,6 @@
         "sourceLang": "TYPE_SCRIPT",
         "esModule": true,
         "generateCode": true,
-        "outputFolder": "Second/src/scenes"
+        "outputFolder": "star-hunter/src/scenes"
     }
 }
