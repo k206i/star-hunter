@@ -1,9 +1,16 @@
-// Fira Sans
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&display=swap');
-
+// Joystix
 @font-face {
   font-family: 'Joystix';
   src: url('../assets/fonts/joystix.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Balloon
+@font-face {
+  font-family: 'Balloon';
+  src: url('../assets/fonts/balloon.otf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

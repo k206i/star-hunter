@@ -59,6 +59,7 @@ export default class HighScores implements IHighScores {
     }
 
     this.rootNode.classList.remove( appCssClasses.isLoading );
+    document.body.classList.add( appCssClasses.isLoaded );
     this.rootNode.appendChild( this.scoreListTemplate );
   }
 }

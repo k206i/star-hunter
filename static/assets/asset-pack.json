@@ -30,6 +30,11 @@
                 "key": "FufuSuperDino"
             },
             {
+                "url": "assets/loading.gif",
+                "type": "image",
+                "key": "loading"
+            },
+            {
                 "url": "assets/platform.png",
                 "type": "image",
                 "key": "platform"
